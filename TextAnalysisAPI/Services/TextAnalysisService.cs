@@ -71,6 +71,7 @@ namespace TextAnalysisAPI.Services
             return Regex.IsMatch(input, @"^[^@\s]+@[^@\s]+\.[^@\s]+$", RegexOptions.IgnoreCase);
         }
 
+        // Eingabe Text als Decimal zurück geben
         public string ConvertStringToDecimal(string input)
         {
             if (string.IsNullOrEmpty(input))
@@ -94,14 +95,14 @@ namespace TextAnalysisAPI.Services
 
             }
 
-            // Wenn Parsen fehl schlägt ist ein nicht erlaubtes Zeichen enthalten
+            // Wenn Parsen fehlschlägt ist ein nicht erlaubtes Zeichen enthalten
             if (double.TryParse(sanitizedInput, out double result))
             {
                 // Hier wird nicht das result zurückgegeben, da die Information wie viele 0en hinter dem Komma stehen beim Parsen, verloren gegangen ist
                 return sanitizedInput;
             }
 
-            return "0";  // Return "0" if parsing fails
+            return "0";  // Return "0"  Wenn Parsen fehlschlägt
         }
     }
 }
