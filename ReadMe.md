@@ -1,8 +1,5 @@
 # Web API für Textanalyse
 
-## Projektbeschreibung
-
-Dieses Projekt implementiert eine **Microservice Web-API** unter Verwendung des **ASP.NET Core Minimal API**-Ansatzes. Die API bietet verschiedene Funktionen zur Analyse von Texten, wie das Zählen und Überprüfen von Wörtern und Buchstaben in einem String, die Validierung von E-Mail-Adressen, das Erkennen von Base64-kodierten Strings und eine Funktion zur String-zu-Dezimal-Konvertierung.
 
 ## Funktionen
 
