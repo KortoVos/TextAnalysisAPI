@@ -65,4 +65,11 @@ app.MapGet("/isValidEmail", (TextAnalysisService service, string input) =>
     return Results.Json(new { IsValidEmail = service.IsValidEmail(input) });
 });
 
+// Endpoint zum Konvertieren eines Strings in einen Dezimalwert
+app.MapGet("/convertStringToDecimal", (TextAnalysisService service, string input) =>
+{
+    return Results.Json(new { DecimalValue = service.ConvertStringToDecimal(input) });
+});
+
+
 app.Run();
