@@ -25,6 +25,7 @@ Dieses Projekt implementiert eine **Microservice Web-API** unter Verwendung des 
 ```bash
 git clone https://github.com/KortoVos/TextAnalysisAPI.git
 cd TextAnalysisAPI
+cd TextAnalysisAPI
 ```
 
 ### 2. Abhängigkeiten installieren
