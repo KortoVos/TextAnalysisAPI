@@ -1,0 +1,12 @@
+
+/.vs
+/obj
+TextAnalysisAPI.csproj.user
+/bin
+/TextAnalysisAPI/bin
+/TextAnalysisAPI/obj
+/TextAnalysisAPI.Tests/bin
+/TextAnalysisAPI.Tests/obj
+/TextAnalysisBenchmark/bin
+/TextAnalysisBenchmark/obj
+/TextAnalysisAPI/.vs
